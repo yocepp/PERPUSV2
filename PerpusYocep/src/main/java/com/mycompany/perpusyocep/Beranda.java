@@ -49,6 +49,8 @@ public class Beranda extends javax.swing.JFrame {
 
         BGBerandaLogin.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/Halaman Login.png"))); // NOI18N
         BGBerandaLogin.setText("jLabel1");
+        BGBerandaLogin.setMaximumSize(new java.awt.Dimension(1000, 600));
+        BGBerandaLogin.setMinimumSize(new java.awt.Dimension(1000, 600));
         getContentPane().add(BGBerandaLogin, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1000, -1));
 
         pack();
